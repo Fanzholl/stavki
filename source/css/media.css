@@ -1,0 +1,177 @@
+@media screen and (max-width: 1600px) {
+          nav {
+                    display: none;
+          }
+
+          .fix {
+                    padding-right: 30px;
+                    padding-left: 30px;
+          }
+}
+
+@media screen and (max-width: 1405px) {
+          .photo, .info_about, .info_about p {
+                    width: 672px;
+                    display: block;
+                    margin: auto;
+          }
+
+          .content3 {
+                    padding-right: 30px;
+                    padding-left: 30px;
+          }
+
+          .info_about {
+                    max-width: 672px;
+                    padding-top: 50px;
+          }
+
+
+}
+
+@media screen and (max-width: 1350px) {
+          .fix2 {
+                    height: auto;
+                    max-width: 600px;
+                    margin: auto;
+                    padding-bottom: 30px;
+
+          }
+          .idea {
+                    margin: 0;
+                    height: auto;
+                    padding: 0 0 50px 0;
+                    box-sizing: content-box;
+          }
+
+          .last {
+                    padding: 0 0 0 0;
+          }
+
+          #line_p {
+                    padding-right: 20px;
+                    padding-left: 20px;
+          }
+}
+
+@media screen and (max-width: 1300px) {
+          .content5 {
+                    padding: 100px 30px 100px 30px;
+          }
+
+          .price {
+
+                    margin: auto;
+                    flex-wrap: wrap;
+
+          }
+
+          .lote {
+                    width: 48%;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                    margin-right: 2%;
+                    margin-bottom: 40px;
+                    align-self: baseline;
+
+
+          }
+
+          .fix6 {
+                    height: 160px;
+                    display: flex;
+                    align-items: baseline;
+                    justify-content: center;
+
+          }
+
+          #fix9, .lote:last-child {
+                    margin: 0;
+                    padding-bottom: 0px;
+          }
+
+          #fix10 {
+                    margin-bottom: 0;
+          }
+}
+
+@media screen and (max-width: 853px) {
+          .fix6 {
+                    height: 250px;
+          }
+}
+
+@media screen and (max-width: 750px) {
+          .photo, .info_about {
+                    width: 80%;
+          }
+          .info_about p {
+                    text-align: center;
+          }
+}
+
+@media screen and (max-width: 645px) {
+          .price {
+                    height: auto;
+                    display: block;
+                    margin: auto;
+
+          }
+
+          .lote {
+                    width: 281px;
+                    display: block;
+                    margin: auto;
+                    margin-bottom: 50px;
+          }
+
+          .fix6 {
+                    height: auto;
+          }
+
+          .content6 {
+                    padding-right: 30px;
+                    padding-left: 30px;
+          }
+
+          .content6 h2 {
+                    font-size: 50px;
+          }
+
+          .lote:last-child {
+                    margin: auto;
+          }
+
+          #fix9 {
+                    margin: auto;
+                    margin-bottom: 50px;
+          }
+
+          #fix10 {
+                    margin-bottom: 50px;
+          }
+}
+
+@media screen and (max-width: 420px) {
+          .comment {
+                    font-size: 24px;
+          }
+
+          .FIO {
+                    font-size: 16px;
+          }
+          .content6 h2 {
+                    font-size: 46px;
+          }
+}
+
+@media screen and (max-height: 900px) {
+          .fix7 {
+                    height: 100vh;
+          }
+
+          .content6 {
+                    padding: 0;
+          }
+}
